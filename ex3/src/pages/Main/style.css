@@ -1,0 +1,40 @@
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-teacher-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 1096px;
+}
+
+.teacher {
+    background: #DA0175;
+    color: white;
+    border-radius: 8px;
+    padding: 24px 27px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    transform: 1.1;
+}
+
+.teacher:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.teacher img {
+    border-radius: 50%;
+    border: 5px solid white;
+    max-width: 139px;
+    margin-bottom: 16px;
+}

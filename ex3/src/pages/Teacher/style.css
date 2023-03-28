@@ -1,0 +1,79 @@
+.container-teacher-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prev-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 48px;
+    left: 48px;
+}
+
+.teacher-detail {
+    background: #DA0175;
+    color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 54px;
+    width: 468px;
+    min-height: 562px;
+    margin-bottom: 93px;
+}
+
+.teacher-detail img {
+    width: 178px;
+    border-radius: 50%;
+    border: 5px solid white
+}
+
+.teacher-detail strong {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    margin: 24px 0 12px;
+}
+
+.teacher-detail span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: underline;
+    border-top: 1px solid #BBBBBB;
+    width: 100%;
+    margin: 16px 0 24px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.teacher-detail p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+
+    max-height: 131px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(128, 123, 123);
+}
